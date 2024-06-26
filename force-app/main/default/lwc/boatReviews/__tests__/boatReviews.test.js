@@ -1,6 +1,7 @@
 import { createElement } from 'lwc';
 import BoatReviews from 'c/boatReviews';
 
+
 describe('c-boat-reviews', () => {
     afterEach(() => {
         // The jsdom instance is shared across test cases in a single file so reset the DOM
