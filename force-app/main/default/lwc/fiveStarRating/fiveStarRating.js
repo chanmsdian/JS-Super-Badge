@@ -1,4 +1,5 @@
-//import fivestar static resource, call it fivestarimport fivestar from '@salesforce/resourceUrl/fivestar';
+//import fivestar static resource, call it fivestar
+import fivestar from '@salesforce/resourceUrl/fivestar';
 import { LightningElement, api } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import { loadStyle, loadScript } from 'lightning/platformResourceLoader';
